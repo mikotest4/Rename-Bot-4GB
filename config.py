@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "27704224"))
+API_HASH = os.environ.get("API_HASH", "c2e33826d757fe113bc154fcfabc987d")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8407242621:AAEdmNygErIF1K8V7zauqQT0RjvImzA6Gh8")
+ADMIN = int(os.environ.get("ADMIN", "8108281129"))
 
 
 # Premium 4GB Renaming Client Config
@@ -15,11 +15,11 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 # Log & Force Channel Config
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002669902570"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Koi:aloksingh@cluster0.86wo9.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
 
 
